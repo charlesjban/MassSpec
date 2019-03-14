@@ -38,7 +38,6 @@ Output		[file.masses]	[file.stats][file.csv]
 
 ## VERSIONS
 massspec.py		Program main version.	Last updated Nov. 15 2018
-	1500massspec.py		Altered to filter out mass/charge values not in 1000-1500 dalton range, in the optional stats output files.
 
 ## AUTHOR
 Charles Bannister
