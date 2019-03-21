@@ -13,10 +13,12 @@ massspec.py [-f filename]
 MassSpec is designed to work as part of full genome digestion and massspec modelling pipeline created as part of a University group project. MassSpec is part3 of the process and takes enzyme 'digested' peptide sequences, in .fasta format (must be formatted as shown in dummy file) and calculates a mass-to-charge value for each sequence, based on known amino acid mass/charge values. By default, average amino masses will be used, however monoisotopic values can be requested. MassSpec also adds a value for water and appropriate proton value (based on charge) Users can select a charge assigned to each peptide of 3, 2 or default, 1, and choose to only output N-terminal or C-terminal peptides. All of the information for each peptide is output to a non-headed table in a '.masses' file, along with number of missed cleavages and enzyme used, which is passed from task2. Users can request an additional stats file, which is a calculation of the average number of peptides per protein, as well as a '.csv' file of the number of peptides per protein.
 
 ## FILES
-Input		[file.fasta]
+Input		
+	[file.fasta]
 	File name must have '.fasta' suffix and the file contents must be formatted as the standard output from task2.
 
-Output		[file.masses]	[file.stats][file.csv]
+Output		
+	[file.masses]	[file.stats][file.csv]
 			Main output file name will be in non-headed table format and will take be named as the input file has, with '.masses' suffix replacing .fasta. Optional arguments available output .stats and .csv file for further analysis.
 		
 
